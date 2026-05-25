@@ -72,7 +72,7 @@ body {
   top: 820px;
   color: #515076;
   padding-left: 45px;
-  }
+ }
 
 .compound { 
   list-style: none;
@@ -81,7 +81,7 @@ body {
   font-size: 13px;
 }
 
-.price, .price-value{
+.price, .price-value {
   top: 932px;
   left: 110px;
   color: #515076;
@@ -94,12 +94,12 @@ body {
   padding-top: 5px;
 }
 
-.price-container{
+.price-container {
   padding-top: 20px;
   padding-left: 25px;
 }
 
-.price-value{
+.price-value {
   padding-left: 180px;
   padding-right: 25px;
 }
