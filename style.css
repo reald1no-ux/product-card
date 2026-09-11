@@ -16,6 +16,8 @@ body {
   text-align: center;
   vertical-align: middle;
   color: #515076;
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 .img-product {
@@ -26,14 +28,10 @@ body {
 }
 
 .product-list {
-  list-style: none;
-  width: 340px;
-  height: 573px;
-  left: 85px;
-  top: 408px;
-  /* back violet */
-  background: #F7F7FA;
-  box-shadow: 2px 2px 10px rgba(81, 80, 118, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .skin-type {
@@ -42,7 +40,7 @@ body {
   line-height: 24px;
   letter-spacing: 0%;
   text-transform: uppercase;
-  color: #515076;
+  color: #A5A3B9;
   padding-left: 25px;
 }
 
@@ -72,7 +70,7 @@ body {
   top: 820px;
   color: #515076;
   padding-left: 45px;
- }
+}
 
 .compound { 
   list-style: none;
@@ -102,4 +100,20 @@ body {
 .price-value {
   padding-left: 180px;
   padding-right: 25px;
+}
+
+.li-style {
+  list-style: none;
+  width: 340px;
+  height: 573px;
+  left: 85px;
+  top: 408px;
+  /* back violet */
+  background: #F7F7FA;
+  box-shadow: 2px 2px 10px rgba(81, 80, 118, 0.1);
+}
+
+.background {
+  background-image: url('./images/background-Flowers.png');
+  background-repeat: no-repeat;
 }
