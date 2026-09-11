@@ -1,126 +1,126 @@
-* {
-  box-sizing: border-box;
-  padding: 0px;
-}
+  * {
+   box-sizing: border-box;
+    padding: 0px;
+  }
 
-body {
-  font-family: Montserrat;
-}
+  body {
+    font-family: Montserrat;
+  }
 
-.title {
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 70px;
-  line-height: 78px;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
-  color: #515076;
-  padding-top: 90px;
-  padding-bottom: 110px;
-}
+  .title {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 70px;
+    line-height: 78px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #515076;
+    padding-top: 90px;
+    padding-bottom: 110px;
+  }
 
-.img-product {
-  margin: 25px;
-  top: 433px;
-  left: 110px;
-  opacity: 1;
-}
+  .img-product {
+    margin: 25px;
+    top: 433px;
+    left: 110px;
+    opacity: 1;
+  }
 
-.product--cards {
-  display: flex;
-  width: 1100px;
-  flex-wrap: wrap;
-  height: 1191px;
-  justify-content: center;
-  gap: 35px;
-  margin: 0 auto;
-  padding: 50px 0;
+  .product--cards {
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    height: 1191px;
+    justify-content: center;
+    gap: 35px;
+    margin: 0 auto;
+    padding: 50px 0;
 
-}
+  }
 
-.product__skin-type {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 24px;
-  letter-spacing: 0%;
-  text-transform: uppercase;
-  color: #A5A3B9;
-  padding-left: 25px;
-}
+  .product__skin-type {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #A5A3B9;
+    padding-left: 25px;
+  }
 
-.product__name {
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 20px;
-  line-height: 27px;
-  letter-spacing: 0%;
-  color: #515076;
-  padding-left: 25px;
-}
+  .product__name {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #515076;
+    padding-left: 25px;
+  }
 
-.product__description {
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 0%;
-  color: #515076;
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 13px;
-}
+  .product__description {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #515076;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 13px;
+  }
 
-.product__list {
-  top: 820px;
-  color: #515076;
-  padding-left: 45px;
-}
+  .product__list {
+    top: 820px;
+    color: #515076;
+    padding-left: 45px;
+  }
 
-.product__compound { 
-  list-style: none;
-  padding-left: 25px;
-  color: #515076;
-  font-size: 13px;
-}
+  .product__compound { 
+    list-style: none;
+    padding-left: 25px;
+    color: #515076;
+    font-size: 13px;
+  }
 
-.product__price-label, .product__price-value {
-  top: 932px;
-  left: 110px;
-  color: #515076;
-}
+  .product__price-label, .product__price-value {
+    top: 932px;
+    left: 110px;
+    color: #515076;
+  }
 
-.product__list-item {
-  padding-right: 90px;
-  font-size: 13px;
-  white-space: nowrap;
-  padding-top: 5px;
-}
+  .product__list-item {
+    padding-right: 90px;
+    font-size: 13px;
+    white-space: nowrap;
+    padding-top: 5px;
+  }
 
-.product__price-box {
-  padding-top: -20px;
-  padding-left: 25px;
-}
+  .product__price-box {
+    padding-top: -20px;
+    padding-left: 25px;
+  }
 
-.product__price-value {
-  padding-left: 180px;
-  padding-right: 25px;
-}
+  .product__price-value {
+    padding-left: 180px;
+    padding-right: 25px;
+  }
 
-.product__card {
-  list-style: none;
-  width: 340px;
-  height: 573px;
-  left: 85px;
-  top: 408px;
-  /* back violet */
-  background: #F7F7FA;
-  box-shadow: 2px 2px 10px rgba(81, 80, 118, 0.1);
-}
+  .product__card {
+    list-style: none;
+    width: 340px;
+    height: 573px;
+    left: 85px;
+    top: 408px;
+    /* back violet */
+    background: #F7F7FA;
+    box-shadow: 2px 2px 10px rgba(81, 80, 118, 0.1);
+  }
 
-.flowers--bg {
-  background-image: url(./images/background-Flowers.png);
-  background-repeat: no-repeat;
-  background-position: -20px 100px
-}
+  .background__Flowers {
+    background-image: url(./images/background-Flowers.png);
+    background-repeat: no-repeat;
+    background-position: -20px 100px
+  }
 

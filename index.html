@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  
-  <link rel="stylesheet" href="./style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="product--cards flowers--bg">
+   <div class="product--cards background__Flowers">
+   <button id="ecolor-button">кнопка</button>
+   <button id="output-console-log">вывести сообщение в консоль</button>
+   <button id="open-google-button">открыть гугл</button>
+   <button id="change-Color-Card">Изменить цвет карточки</button>
+   <button id="change-Color-Card-all">Изменить цвет карточек</button>
     <h1 class="title">Выбери свой продукт</h1>
-       <li class="product--card" >
+       <li class="product__card" >
           <img class="img-product" src="./images/mousse.png" alt="Увлажняющий мусс" width="290"> 
           <span class="product__skin-type">для нормальной кожи</span>
           <h2 class="product__name">Увлажняющий мусс</h2>
@@ -116,6 +120,7 @@
               <span class="product__price-value">7520  &#8381;</span>
          </div>
        </li>
-   </div>
+   </div> 
+   <script src="./script.js"></script>
 </body>
 </html>
