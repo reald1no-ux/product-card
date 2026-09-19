@@ -89,7 +89,7 @@ if (temprerature>20){
   }
   buyProduct(300);
   
-  const userName = 'Али';
+  const userName = 'иван';
   const userAge = 17; 
   
   function сheckCinemaAccess(age){
