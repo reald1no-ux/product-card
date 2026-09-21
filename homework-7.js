@@ -1,19 +1,19 @@
-function weather(city, temprerature) {
-  console.log(`В городе ${city} сейчас ${temprerature} градусов`)
+function showWeather(city, temperature) {
+  console.log(`В городе ${city} сейчас ${temperature} градусов`)
 }
-weather('москва', 20)
+showWeather('москва', 20)
 
-const speedLight = 300000;
-function speed(speed) {
-  if (speed > speedLight) { console.log('Сверхсветовая скорость'); }
-  else if (speed === speedLight) {
+const SPEED_OF_LIGHT = 300000;
+function showSpeed(speed) {
+  if (speed > SPEED_OF_LIGHT) { console.log('Сверхсветовая скорость'); }
+  else if (speed === SPEED_OF_LIGHT) {
     console.log('скорость света');
   }
   else {
     console.log('Субсветовая скорость');
   }
 }
-speed(300000);
+showSpeed(300000);
 
 const productName = "telephone";
 const price = 300;
