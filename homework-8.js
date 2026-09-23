@@ -24,12 +24,12 @@ carInfo.owner = userInfo
 
 // задание номер 4
 
-function Check(info, speed, sp) {
+function checkCarInfo(info, speed, sp) {
   if (!Object.hasOwn(info, speed)) {
     info[speed] = sp
   }
 }
-Check(carInfo, 'speed', 200)
+checkCarInfo(carInfo, 'speed', 200)
 
 console.log(carInfo)
 
