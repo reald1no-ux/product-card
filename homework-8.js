@@ -2,7 +2,7 @@
 
 const userInfo = {
   name: 'Иван',
-  age: 18,
+  age: 19,
   lastName: 'Иванов',
   email: 'ivanov@example.com',
   employer: 'Example Corp',
