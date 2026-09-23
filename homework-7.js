@@ -21,7 +21,6 @@ const price = 300;
 function buyProduct(balans) {
   if (balans >= price) { console.log(`вы приобрели ${productName} спасибо за покупку `) }
   else { console.log(`вам не хватает ${price - balans} $ пополните баланс`) }
-
 }
 buyProduct(300);
 
@@ -35,3 +34,4 @@ function checkCinemaAccess(age) {
   else { console.log(`${userName} не может купить билет ему нет 18 лет`) }
 }
 checkCinemaAccess(userAge);
+
