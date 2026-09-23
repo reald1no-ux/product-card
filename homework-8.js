@@ -1,4 +1,4 @@
-// задание номер 1
+// задание номер 2
 
 const userInfo = {
   name: 'Иван',
@@ -11,7 +11,7 @@ const userInfo = {
   city: 'Moscow',
   relationshipStatus: 'Single'
 }
-// задание номер 2
+// задание номер 3
 
 const carInfo = {
   make: 'toyota',
@@ -22,7 +22,7 @@ const carInfo = {
 }
 carInfo.owner = userInfo
 
-// задание номер 3
+// задание номер 4
 
 function Check(info, speed, sp) {
   if (!Object.hasOwn(info, speed)) {
@@ -33,18 +33,18 @@ Check(carInfo, 'speed', 200)
 
 console.log(carInfo)
 
-//задание номер 4
+//задание номер 6
 
 function giveInfo(obj, key) {
   console.log(obj[key])
 }
 giveInfo(carInfo, 'speed')
 
-//задание номер 5
+//задание номер 7
 
 const products = [молоко, хлеб, сыр, масло, йогурт]
 
-//задание номер 6
+//задание номер 8
 
 const book1 = {
   name: 'Война и мир',
@@ -78,6 +78,46 @@ const book4 = {
 }
 
 
-const books = [book1,book2,book3]
+const books = [book1, book2, book3]
 
 books.push(book4)
+
+//задание номер 9
+
+const book5 = {
+  name: 'Гарри Поттер и философский камень',
+  author: 'Дж. К. Роулинг',
+  year: 1997,
+  genre: 'фэнтези',
+  color: 'красный'
+};
+
+const book6 = {
+  name: 'Гарри Поттер и Тайная комната',
+  author: 'Дж. К. Роулинг',
+  year: 1998,
+  genre: 'фэнтези',
+  color: 'зеленый'
+};
+
+const book7 = {
+  name: 'Гарри Поттер и узник Азкабана',
+  author: 'Дж. К. Роулинг',
+  year: 1999,
+  genre: 'фэнтези',
+  color: 'синий'
+};
+
+const allBooks = [book5, book6, book7, ...books]
+
+//задание номер 10
+
+const upDatedBooks = allBooks.map(function (book) {
+  if (book.year > 2000) {
+    book.isRare = true
+  }
+  else {
+    book.isRare = false
+  }
+  return book
+})
