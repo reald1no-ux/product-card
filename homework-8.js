@@ -2,7 +2,7 @@
 
 const userInfo = {
   name: 'Иван',
-  age: 19,
+  age: 18,
   lastName: 'Иванов',
   email: 'ivanov@example.com',
   employer: 'Example Corp',
@@ -10,7 +10,8 @@ const userInfo = {
   country: 'Russia',
   city: 'Moscow',
   relationshipStatus: 'Single'
-}
+};
+
 // задание номер 3
 
 const carInfo = {
@@ -19,105 +20,101 @@ const carInfo = {
   year: 2020,
   color: 'red',
   transmission: 'automatic',
-}
-carInfo.owner = userInfo
+};
+carInfo.owner = userInfo;
 
 // задание номер 4
 
-function checkCarInfo(info, speed, sp) {
-  if (!Object.hasOwn(info, speed)) {
-    info[speed] = sp
+function checkCarInfo(info, key, value) {
+  if (!Object.hasOwn(info, key)) {
+    info[key] = value;
   }
 }
-checkCarInfo(carInfo, 'speed', 200)
+checkCarInfo(carInfo, 'speed', 200);
 
-console.log(carInfo)
+console.log(carInfo);
 
 //задание номер 6
 
-function giveInfo(obj, key) {
-  console.log(obj[key])
+function giveInfo (obj, key) {
+  console.log (obj[key]);
 }
-giveInfo(carInfo, 'speed')
+giveInfo(carInfo, 'speed');
 
 //задание номер 7
 
-const products = [молоко, хлеб, сыр, масло, йогурт]
+const products = ['молоко', 'хлеб', 'сыр', 'масло', 'йогурт'];
 
 //задание номер 8
 
-const book1 = {
-  name: 'Война и мир',
-  autor: 'Лев Толстой',
-  year: 1869,
-  genre: 'роман',
-  color: 'белый'
-}
+const books = [
+  {
+    name: 'Война и мир',
+    author: 'Лев Толстой',
+    year: 1869,
+    genre: 'роман',
+    color: 'белый'
+  },
 
-const book2 = {
-  name: 'Преступление и наказание',
-  autor: 'Федор Достоевский',
-  year: 1866,
-  genre: 'роман',
-  color: 'черный'
-}
+  {
+    name: 'Преступление и наказание',
+    author: 'Федор Достоевский',
+    year: 1866,
+    genre: 'роман',
+    color: 'черный'
+  },
 
-const book3 = {
-  name: 'первый учитель',
-  autor: 'Чингиз Айтматов',
-  year: 1962,
-  genre: 'роман',
-  color: 'красный'
-}
-const book4 = {
+  {
+    name: 'первый учитель',
+    author: 'Чингиз Айтматов',
+    year: 1962,
+    genre: 'роман',
+    color: 'красный'
+  }
+];
+const book = {
   name: 'материнское поле',
-  autor: 'Чингиз Айтматов',
+  author: 'Чингиз Айтматов',
   year: 1967,
   genre: 'роман',
   color: 'синий'
 }
 
-
-const books = [book1, book2, book3]
-
-books.push(book4)
+books.push(book)
 
 //задание номер 9
 
-const book5 = {
-  name: 'Гарри Поттер и философский камень',
-  author: 'Дж. К. Роулинг',
-  year: 1997,
-  genre: 'фэнтези',
-  color: 'красный'
-};
+const booksPotter = [
+  {
+    name: 'Гарри Поттер и философский камень',
+    author: 'Дж. К. Роулинг',
+    year: 1997,
+    genre: 'фэнтези',
+    color: 'красный'
+  },
 
-const book6 = {
-  name: 'Гарри Поттер и Тайная комната',
-  author: 'Дж. К. Роулинг',
-  year: 1998,
-  genre: 'фэнтези',
-  color: 'зеленый'
-};
+  {
+    name: 'Гарри Поттер и Тайная комната',
+    author: 'Дж. К. Роулинг',
+    year: 1998,
+    genre: 'фэнтези',
+    color: 'зеленый'
+  },
 
-const book7 = {
-  name: 'Гарри Поттер и узник Азкабана',
-  author: 'Дж. К. Роулинг',
-  year: 1999,
-  genre: 'фэнтези',
-  color: 'синий'
-};
-
-const allBooks = [book5, book6, book7, ...books]
-
-//задание номер 10
-
-const upDatedBooks = allBooks.map(function (book) {
-  if (book.year > 2000) {
-    book.isRare = true
+  {
+    name: 'Гарри Поттер и узник Азкабана',
+    author: 'Дж. К. Роулинг',
+    year: 1999,
+    genre: 'фэнтези',
+    color: 'синий'
   }
-  else {
-    book.isRare = false
-  }
+];
+
+const allBooks = [...booksPotter, ...books]
+
+//задание 10
+
+const markedBooks = allBooks.map(function (book) {
+  book.isRare = book.year > 2000 ? true : false
   return book
-})
+});
