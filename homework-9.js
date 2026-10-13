@@ -1,3 +1,4 @@
+import { comments } from './comments.js';
 
 // уровень 1 задание 2
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -23,7 +24,6 @@ console.log(numbers);
 console.log(movies);
 
 //ЗАДАНИЕ 7 УРОВЕНЬ 2
-import { comments } from './comments.js';
 
 const comEmailComments = comments.filter(function (comment) {
   return comment.email.includes('.com');
